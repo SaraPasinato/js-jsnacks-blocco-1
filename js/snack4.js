@@ -10,7 +10,7 @@ var arr1 = [1, 6, 7, 3, 18, 45, 70];
 var arr2 = [1, 2, 5, 7, 9];
 var listArr1 = "la lista A ha questi numeri: ";
 var listArr2 = "La lista B ha questi numeri: ";
-var result = document.getElementById("result");
+var result = document.getElementById("result-4");
 
 // ** 2: controllo fino a quando ne avrà tanti quanti l'altro
 

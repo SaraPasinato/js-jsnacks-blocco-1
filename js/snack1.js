@@ -10,7 +10,7 @@
 // **  a. inizializzare le variabili */
 var max = 5;
 var sum = 0;
-var result = document.getElementById("result");
+var result = document.getElementById("result-1");
 var n = 0;
 var counter = 0; //iteratore per while
 

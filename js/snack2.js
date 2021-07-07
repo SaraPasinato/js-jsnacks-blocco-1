@@ -8,7 +8,7 @@
 
 // ** 1: inizializzo le variabili
 var n = 0;
-var result = document.getElementById("result");
+var result = document.getElementById("result-2");
 
 // ** 2: creo un ciclo do while per controllare che 
 // **  il il numero sia positivo e non venga inserito
