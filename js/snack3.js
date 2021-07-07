@@ -25,7 +25,7 @@ while (invitedName.length < 3) {
 
     // ** 4: compondo il nome per poterlo memorizzare in invitedName
     var fullName = arrName[randName] + " " + arrSurname[randSurname];
-    // al primo giro precedente = 
+    // ciclo sugli elementi già presenti in lista
     for (var i = 0; i < invitedName.length; i++) {
         if (invitedName[i].includes(fullName)) {
             randName = Math.floor(Math.random() * arrName.length);
