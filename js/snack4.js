@@ -6,11 +6,11 @@
  * 
  */
 // ** 1: inizializzo gli arr1 e arr2 negli array dedicati
-var arr1 = [1, 6, 7, 3, 18,45, 70];
+var arr1 = [1, 6, 7, 3, 18, 45, 70];
 var arr2 = [1, 2, 5, 7, 9];
-var listArr1="la lista A ha questi numeri: ";
-var listArr2="La lista B ha questi numeri: ";
-var result=document.getElementById("result");
+var listArr1 = "la lista A ha questi numeri: ";
+var listArr2 = "La lista B ha questi numeri: ";
+var result = document.getElementById("result");
 
 // ** 2: controllo fino a quando ne avrà tanti quanti l'altro
 
@@ -28,11 +28,11 @@ console.table(arr1);
 console.table(arr2);
 
 //costruisco l'output e poi inserisco l'output in html
-for(var i=0, j=0; i<arr1.length && j<arr2.length; i++,j++){
-    listArr1+=arr1[i]+" ";
-    listArr2+=arr2[j]+ " ";
+for (var i = 0, j = 0; i < arr1.length && j < arr2.length; i++, j++) {
+    listArr1 += arr1[i] + " ";
+    listArr2 += arr2[j] + " ";
 }
-listArr2+="\n";
-listArr1+="\n";
+listArr2 += "\n";
+listArr1 += "\n";
 
-result.innerText=listArr1+listArr2;
+result.innerText = listArr1 + listArr2;
