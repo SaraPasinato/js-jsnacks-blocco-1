@@ -5,11 +5,12 @@
     font-size: sans-serif;
 }
 
-.container{
+.box{
     margin: 10px auto;
+    padding: 10px 0;
     min-height: 100px;
     max-width: 50%;
-    line-height: 100px;
+   
     background-color:palegoldenrod;
     border-radius: 20px;
 
