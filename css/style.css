@@ -19,3 +19,7 @@
     box-shadow: 0 0 10px #b3b2b2;
 }
 
+th,td{
+    padding: 10px;
+    border: 1px solid;
+}
